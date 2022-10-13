@@ -1,0 +1,17 @@
+Description: fix typescript error
+ fix typescript error in ensure-posix-path component
+Author: Ayoyimika Ajibade <ayoyimikaajibade@gmail.com>
+Forwarded: not-needed
+Last-Update: 2021-11-15
+--- a/ensure-posix-path/test.ts
++++ b/ensure-posix-path/test.ts
+@@ -4,6 +4,9 @@
+ import path32 = require('path-win32');
+ import pathPosix = require('path-posix');
+ 
++declare var before: any
++declare var after: any
++
+ const { expect } = chai;
+ 
+ describe('ensurePosixPath', function() {

@@ -1,0 +1,58 @@
+node-get-caller-file (2.0.5+~cs1.1.1-2) unstable; urgency=medium
+
+  * Team upload
+  * Use dh-sequence-nodejs instead of pkg-js-tools
+  * Drop dependency to nodejs
+  * Back to unstable
+
+ -- Yadd <yadd@debian.org>  Tue, 16 Nov 2021 15:54:19 +0100
+
+node-get-caller-file (2.0.5+~cs1.1.1-1) experimental; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Use pkg-js-tools auto install
+  * Enable upstream test using mocha
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+    + node-get-caller-file: Add Multi-Arch: foreign.
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.5.1, no changes needed.
+
+  [ Ayoyimika Ajibade ]
+  * Updated watch => version 4
+  * Updated and refreshed patches
+  * Updated Standards-Version 4.5.1 => 4.6.0
+  * Enabled clean build
+  * Enabled build and updated test
+  * Added build dependency
+  * installed package copied to node_modules/
+  * embed & removed ensure-posix-path from test_modules/
+  * New upstream version 2.0.5+~cs1.1.1
+  * Enabled build for ensure-posix-path component
+  * ignore ts error in component
+  * install missing autopkgtest files
+
+ -- Ayoyimika Ajibade <ayoyimikaajibade@gmail.com>  Mon, 15 Nov 2021 08:49:07 +0100
+
+node-get-caller-file (1.0.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #845341)
+
+ -- Pirate Praveen <praveen@debian.org>  Tue, 22 Nov 2016 22:15:50 +0530
