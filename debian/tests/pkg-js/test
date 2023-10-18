@@ -1,1 +1,2 @@
+rm -f test.js
 tsc ./test.ts && mocha test
