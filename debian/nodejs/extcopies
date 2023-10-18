@@ -1,6 +1,0 @@
-chai
-@types/jest
-@types/node
-@types/chai
-jest-diff
-pretty-format
